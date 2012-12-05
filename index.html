@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pclock - a polar clock</title>
+	<script type='text/javascript' src="clock.js"></script>
+	<script src="jQuery-1-8-min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="jClock.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" href="clock.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+</head>
+<body onload="loadClock('clock');">
+	<div class="wrap">
+		<div class="cssclock">
+			<div id="clockdigital">
+				<img src="images/digitalhours.gif" id="digitalhour" alt="Clocks hours">
+				<img src="images/digitalminutes.gif" id="digitalminute" alt="Clocks minutes" >
+				<img src="images/digitalseconds.gif" id="digitalsecond" alt="Clocks seconds" >
+				<div style="opacity: 0.8;">
+					&nbsp;
+				</div>
+				<div style="opacity: 0.8;">
+					&nbsp;
+				</div>
+			</div>
+		</div>
+		<div class="canvasWrap">
+			<canvas id="clock" width="450" height="450">
+				Pff, there's no Canvas support here!
+			</canvas>
+		</div>
+	</div>
+</body>
+</html>
